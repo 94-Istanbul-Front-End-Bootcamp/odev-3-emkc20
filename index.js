@@ -59,7 +59,7 @@ const setErrorFor = (input, message) => {
     span.textContent = message;
     setTimeout(function () {
         formPart.classList.remove("error");
-    }, 15000);
+    }, 1500);
 
 }
 
